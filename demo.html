@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script type='text/javascript' src='jquery-1.4.2.min.js'></script>
+    <script type='text/javascript' src='jquery.simpleSuggest.js'></script>
+  </head>
+
+  <body>
+
+    <form action='demo.html'>
+      <input type='text' class='simpleSuggest' id='favorite_actor' name='favorite_actor' />
+    </form>
+
+  </body>
+
+  <script type='text/javascript'>
+    $(document).ready(function () {
+      $('#favorite_actor').simpleSuggest();
+    });
+  </script>
+</html>
